@@ -74,16 +74,6 @@ export default function Support() {
             </div>
           </section>
 
-          <section className="space-y-4">
-            <h2 className="text-2xl font-semibold text-tt-black">Contact Us</h2>
-            <p>
-              Can't find what you're looking for? Email us at{' '}
-              <a href="mailto:support@tallytap.app" className="text-tt-green hover:underline">
-                support@tallytap.app
-              </a>{' '}
-              and we'll get back to you as soon as possible.
-            </p>
-          </section>
         </div>
       </div>
     </div>
