@@ -20,12 +20,6 @@ export default function Header() {
             >
               Features
             </Link>
-            <Link
-              to="/#pricing"
-              className="text-tt-dark hover:text-tt-green transition-colors font-medium"
-            >
-              Pricing
-            </Link>
             <a
               href="https://apps.apple.com/app/tallytap"
               target="_blank"
