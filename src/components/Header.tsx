@@ -14,12 +14,6 @@ export default function Header() {
             <span className="font-bold text-xl text-tt-black">TallyTap</span>
           </Link>
           <nav className="flex items-center gap-6">
-            <Link
-              to="/#features"
-              className="text-tt-dark hover:text-tt-green transition-colors font-medium"
-            >
-              Features
-            </Link>
             <a
               href="https://apps.apple.com/app/tallytap"
               target="_blank"
