@@ -6,11 +6,11 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2" onClick={() => window.scrollTo(0, 0)}>
-            <div className="w-8 h-8 rounded-xl overflow-hidden gradient-bg flex items-center justify-center">
-              <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
-              </svg>
-            </div>
+            <img 
+              src="/tallytap.png" 
+              alt="TallyTap" 
+              className="w-8 h-8 rounded-lg"
+            />
             <span className="font-bold text-xl text-tt-black">TallyTap</span>
           </Link>
           <nav className="flex items-center gap-6">

@@ -11,11 +11,11 @@ export default function Hero() {
         <div className="text-center">
           {/* App icon */}
           <div className="mb-8 flex justify-center">
-            <div className="w-24 h-24 sm:w-32 sm:h-32 rounded-[28px] shadow-2xl gradient-bg flex items-center justify-center">
-              <svg className="w-14 h-14 sm:w-20 sm:h-20 text-white" viewBox="0 0 24 24" fill="currentColor">
-                <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 14l-5-5 1.41-1.41L12 14.17l7.59-7.59L21 8l-9 9z"/>
-              </svg>
-            </div>
+           <img 
+              src="/tallytap.png" 
+              alt="TallyTap" 
+              className="w-32 h-32 sm:w-40 sm:h-40 rounded-lg"
+            />
           </div>
 
           {/* Headline */}

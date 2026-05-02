@@ -10,11 +10,11 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-xl overflow-hidden gradient-bg flex items-center justify-center">
-                <svg className="w-5 h-5 text-white" viewBox="0 0 24 24" fill="currentColor">
-                  <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14H9V8h2v8zm4 0h-2V8h2v8z"/>
-                </svg>
-              </div>
+              <img 
+                src="/tallytap.png" 
+                alt="TallyTap" 
+                className="w-10 h-10 rounded-lg"
+              />
               <span className="font-bold text-xl">TallyTap</span>
             </div>
             <p className="text-tt-pearl text-sm">
